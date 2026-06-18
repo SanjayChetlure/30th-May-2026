@@ -68,3 +68,39 @@ print("----")
 
 for singleData in studentData:
     print(singleData)
+
+
+#Sorting Operation
+s1=[40,10,30,50,20]
+print("------Before Sorting------")
+print(s1)
+
+
+s1.sort()    #[10, 20, 30, 40, 50]
+print("----After Sorting (Ascending order)----")
+print(s1)
+
+
+s1.reverse()    #[50, 40, 30, 20, 10]
+print("----After Sorting (Descending order)----")
+print(s1)
+
+
+#Counting & Searching
+s2=[50,30,20,30,60,90,30,60]
+
+print(s2.count(60))       #get occurrence of specific element
+
+print(s2.index(30))       #get index of specific element
+
+
+print("---Clear list object----")
+s2.clear()           #clear all elements from list
+print(s2)
+
+
+print("---Delete list object----")
+del s2
+print(s2)
+
+
