@@ -57,3 +57,17 @@ del st
 # print(st)       NameError: name 'st' is not defined
 
 
+print("------Convert Set to list----")
+s4={50,30,20,40,10,10}
+print(type(s4))
+
+
+s5=list(s4)                  #  convert set to list
+print(type(s5))
+
+print(s5)
+print(s5[0])
+
+
+
+
