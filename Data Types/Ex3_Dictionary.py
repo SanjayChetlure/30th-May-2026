@@ -36,4 +36,65 @@ print(dictObj2)
 dictObj2["Ramesh"]=10
 print(dictObj2)
 
+print("-----Remove any specific key-value pair------")
+print(dictObj1)
+dictObj1.pop(2)
+print(dictObj1)
+
+print("-----Remove last inserted k-v pair------")
+dictObj1.popitem()
+print(dictObj1)
+
+print("-----check if any specific key available in dict object------")
+print(1 in dictObj1)          #True
+print(8 in dictObj1)          #False
+
+print("------get all keys------")
+allKeys=dictObj1.keys()
+for singleKey in allKeys:
+    print(singleKey)
+
+print("----")
+
+for singleKey in dictObj1.keys():
+    print(singleKey)
+
+
+print("-----get all values----")
+allValues=dictObj1.values()
+for singleValue in allValues:
+    print(singleValue)
+
+print("------")
+for singleValue in dictObj1.values():
+    print(singleValue)
+
+
+print("-----get all keys-values----")
+allItems=dictObj1.items()
+for key,value in allItems:
+    print(key,"-",value)
+
+print("--")
+
+for k, v in dictObj1.items():
+    print(k, "=", v)
+
+print("----")
+
+allKeys=dictObj1.keys()
+for singleKey in allKeys:
+    print(singleKey,"-",dictObj1[singleKey])
+
+
+print("---clear dict object----")
+dictObj1.clear()
+print(dictObj1)
+
+
+print("----delete dict object---")
+del dictObj1
+print(dictObj1)
+
+
 
