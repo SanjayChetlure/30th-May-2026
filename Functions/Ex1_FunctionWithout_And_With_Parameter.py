@@ -76,4 +76,18 @@ printFullName("ganesh","patil")
 printFullName("suresh","patil")
 
 
+print("-----------")
+
+def studentInfo(sName, sRollNum, sPer, sGrade):
+    print("Student Name: ",sName)
+    print("Student Roll Num: ",sRollNum)
+    print("Student Percentage: ",sPer)
+    print("Student Grade: ",sGrade)
+
+
+studentInfo("Ankita", 101, 65.1, "A+")
+studentInfo("Nikita",102,62.3,"A+")
+
+
+
 
