@@ -42,6 +42,25 @@ print(n1)
 #Apr2
 print(getRollNum())
 
+print("----------Function with multiple return type------------")
+
+def mult(num1, num2):
+    return num1*num2
+
+def AddMult(num1, num2):
+    add=num1+num2
+    mult=num1*num2
+    return add,mult
+
+n1,n2=AddMult(7,8)
+print(n1)
+print(n2)
+
+
+n3=mult(n1,n2)
+print(n3)
+
+
 
 
 
