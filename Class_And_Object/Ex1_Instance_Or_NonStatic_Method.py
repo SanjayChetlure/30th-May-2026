@@ -12,6 +12,12 @@ class Demo1:
         print("running with parameter method")
         print(num * num)
 
+    #Method with return type
+    def add(self,num1, num2):   #num1=2, num2=3
+        addValue=num1+num2      # 2+3=5
+        print("running method with return type")
+        return addValue
+
 #To Call/Run Instance method
 # 1: Create object/instance of class
 # 2: method call
@@ -25,6 +31,11 @@ class Demo1:
 d1=Demo1()           #Object Creation
 d1.m1()              #Method calling
 d1.squareOfNum(5)
+num3=d1.add(2,3)
+print(num3)
+print("----")
+print(d1.add(4,5))
+
 
 #Para1: d1  -> object name -> to refer/identify object
 #Para2: Demo1() -> className() -> Constructor -> copy all the members of class into object
