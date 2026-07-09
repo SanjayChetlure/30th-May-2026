@@ -3,7 +3,8 @@ print("----Ex3: User defined with parameter constructor----")
 class Demo3:
 
     #user defined with 2 parameter constructor
-    #use2: initialize class variable
+    #use1: initialize class variable
+    #use2: copy all the members of class into object
     def __init__(self,a,b):     #a=10, b=20 #local variable
         self.num1=a        #10     #assign local variable info into class variable
         self.num2=b        #20
@@ -38,7 +39,6 @@ d3.sub()
 
 
 print("-------------------Example without user defined with parameter Constructor------------------")
-
 
 
 class Demo4:
