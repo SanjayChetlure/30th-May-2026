@@ -2,7 +2,7 @@ print("-----Example of default constructor-------")
 
 class Demo1:
 
-   #default constructor
+   #default constructor -> provided by compiler
    # use1: copy all the members of class into object
 
    # def __init__(self):
