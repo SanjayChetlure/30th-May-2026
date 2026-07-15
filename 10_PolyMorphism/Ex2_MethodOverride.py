@@ -33,6 +33,11 @@ s.car()
 s.money()
 s.home()
 
+f=Father()
+f.car()
+f.money()
+f.home()
+
 
 print("-----Ex2: Method override in multilevel inheritance-----")
 class GrandFather:
@@ -62,5 +67,49 @@ class Son(Father):
 s=Son()
 s.home()
 s.money()
+
+print("------Ex3: Method override with super()--------")
+
+class A:
+   def m1(self):
+       print("method m1 from parent class")
+
+class B(A):
+   def m1(self):           #method override
+       super().m1()                             #call existing definition/implementation
+       print("method m1 from child class")      #call new  definition/implementation
+
+b=B()
+b.m1()
+
+print("--------EX4: Variable override--------")
+print("-Ex4.1: print only override child class variable-")
+
+class parent:
+   name="amol"
+
+class child(parent):
+   name="AMOL"       #variable override/re-initialize
+
+c=child()
+print(c.name)
+
+print("--Ex4.2: print both parent & child class variable--")
+
+class parent1:
+   name="amol"
+
+class child1(parent1):
+   name="AMOL"
+
+   def test(self):
+       print(self.name)           #call current class variable
+       print(super().name)        #call super class variable
+
+c=child1()
+c.test()
+
+
+
 
 
