@@ -38,6 +38,30 @@ print(s5.strip())
 print(s5.lstrip())
 print(s5.rstrip())
 
+print("------------------------------------")
+
+s1="velocity"
+print(s1[2])
+print(s1[4:8])                #[startIndex:endIndex+1]
+
+s2="abcaba"
+print(s2.find('a'))          # get index of char (1st occurrence)
+print(s2.index('a'))         # alternate method for find
+
+print(s2.rfind('a'))         # get index of last occurrence char
+
+print("--------")
+print(s1+s2)
+s3=s1+s2
+print(s3)
+
+print(s2.count('a'))
+
+
+
+
+
+
 
 
 
