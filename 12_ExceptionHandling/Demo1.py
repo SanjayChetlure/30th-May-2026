@@ -112,6 +112,38 @@ except:
 
 print("Hi Hello")
 
+print("---6: Example of finally block-----")
+n1=10
+n2=0
+try:
+    print(n1/n2)
+except:
+    print("Exception Handled")
+finally:
+   print("running finally block")
+
+
+print("Hi Hello")
+
+
+print("----Raise Exception:----")
+
+
+num=2
+
+if num==2:
+    raise Exception("Exception handled")
+
+
+
+
+# assert(count==2)
+# print("Hi")
+
+
+
+
+
 
 
 
