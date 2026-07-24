@@ -1,11 +1,10 @@
-#module3: Calculator2
+#module2: Calculator2
 
 def div(n1, n2):
     print(n1/n2)
 
 def sub(n1, n2):
     print(n1-n2)
-
 
 class Demo2:
     def m4(self):
