@@ -1,0 +1,2723 @@
+Index: .idea/30th May 2026.iml
+===================================================================
+diff --git a/.idea/30th May 2026.iml b/.idea/30th May 2026.iml
+deleted file mode 100644
+--- a/.idea/30th May 2026.iml	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$">
+-      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+-    </content>
+-    <orderEntry type="jdk" jdkName="Python 3.11 (30th May 2026)" jdkType="Python SDK" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: 1_Varibles/Demo3.py
+===================================================================
+diff --git a/1_Varibles/Demo3.py b/1_Varibles/Demo3.py
+deleted file mode 100644
+--- a/1_Varibles/Demo3.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,12 +0,0 @@
+-
+-empName="Ganesh"
+-empDesignation="Automation Tester"
+-empId=112233
+-empSalary=70000.5
+-
+-
+-#usage of variable
+-print("Emp Name: ",empName)
+-print("Emp Designation: ",empDesignation)
+-print("Emp ID: ",empId)
+-print("Emp Salary: ",empSalary)
+\ No newline at end of file
+Index: 3_Loops/Ex1_ForLoop.py
+===================================================================
+diff --git a/3_Loops/Ex1_ForLoop.py b/3_Loops/Ex1_ForLoop.py
+deleted file mode 100644
+--- a/3_Loops/Ex1_ForLoop.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,88 +0,0 @@
+-
+-
+-print("---Print num from 1 to 5 without 3rd parameter---")
+-
+-#start num: 1
+-#end num: 5
+-#incr/decr: incr num by 1
+-
+-
+-#Syntax of for loop
+-# for variableName in range(startNum,endNum+1, incr/decr(Optional) ):
+-#     print(variableName)
+-
+-# by default 3rd parameter : incr by 1
+-
+-            #  6<6
+-for i in range(1,6):
+-    print(i)           #1 2 3 4 5
+-
+-print("---Print num from 1 to 5 using 3rd parameter(incr/decr)---")
+-
+-#                2<6
+-for num in range(1,6,1):
+-    print(num)
+-
+-print("----print num from 20 to 50------")
+-for i in range(20,51):
+-    print(i)
+-
+-print("----print num from 101 to 200------")
+-for i in range(101,201):
+-    print(i)
+-
+-print("----print Even numbers from 2 to 8----")
+-#              10<9
+-for i in range(2,9,2):
+-    print(i)           #2 4 6 8
+-
+-
+-print("----print Even numbers from 20 to 60----")
+-for i in range(20,61,2):
+-    print(i)
+-
+-print("----print table of 5----")
+-for i in range(5,51,5):
+-    print(i)
+-
+-print("----print table of 5----")
+-for i in range(1,11):
+-    print(i*5)
+-
+-print("----print square of num from 5 to 10-----")
+-for i in range(5,11):
+-    print(i*i)
+-
+-print("------print any msg 5 times-------")
+-#              6<6
+-for i in range(1,21):
+-    print("hi")       #hi hi hi hi hi
+-
+-
+-print("-----print num from 5 to 1-----")
+-# 2nd parameter=endNum-1
+-
+-#             startNum>endNum
+-#             0>0     5-1=4-1=3-1=2-1=1-1=0
+-for i in range(5,0,-1):
+-    print(i)           #5 4 3 2 1
+-
+-
+-
+-print("-----print num from 100 to 20-----")
+-for i in range(100,19,-1):
+-    print(i)
+-
+-
+-print("-----print Even number from 8 to 2-----")
+-#             0s>1    8-2=6-2=4-2=2-2=0
+-for i in range(8,1,-2):
+-    print(i)           #8 6 4 2
+-
+-print("-----print Even number from 100 to 40-----")
+-for i in range(100,39,-2):
+-    print(i)
+-
+-
+-
+-
+Index: 7_TypesOfVariable/Ex3_ClassVariable.py
+===================================================================
+diff --git a/7_TypesOfVariable/Ex3_ClassVariable.py b/7_TypesOfVariable/Ex3_ClassVariable.py
+deleted file mode 100644
+--- a/7_TypesOfVariable/Ex3_ClassVariable.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,17 +0,0 @@
+-
+-print("----3: Example of class variable----")
+-
+-class Test3:
+-
+-    num1=10     #class variable
+-
+-    def m1(self):
+-        print(self.num1*self.num1)       #self(CurrentClassObjName).classVariableName
+-
+-    @staticmethod
+-    def m2():
+-        print(Test3.num1)                #ClassName.classVariableName
+-
+-t3=Test3()
+-t3.m1()      #10*10=100
+-print(t3.num1)
+Index: 2_Conditional Statements/Ex1_if2.py
+===================================================================
+diff --git a/2_Conditional Statements/Ex1_if2.py b/2_Conditional Statements/Ex1_if2.py
+deleted file mode 100644
+--- a/2_Conditional Statements/Ex1_if2.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,6 +0,0 @@
+-
+-shoppingAmt=400
+-
+-#   400>=5000
+-if shoppingAmt>=5000:
+-    print("Additional 10% discount")
+Index: 2_Conditional Statements/Ex4_nested_if1.py
+===================================================================
+diff --git a/2_Conditional Statements/Ex4_nested_if1.py b/2_Conditional Statements/Ex4_nested_if1.py
+deleted file mode 100644
+--- a/2_Conditional Statements/Ex4_nested_if1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,19 +0,0 @@
+-
+-
+-PEM=201
+-
+-#  201>=200
+-if PEM>=200:          #outer if
+-    print("selected in prelim exam")
+-    print("preparing for mains exam")
+-    MEM=501
+-    #501>=500
+-    if MEM>=500:        #nested/inner if
+-        print("Selected in mains exam")
+-    else:
+-        print("rejected in mains exam")
+-else:
+-    print("rejected from prelim exam")
+-
+-
+-print("hi")
+\ No newline at end of file
+Index: 2_Conditional Statements/Ex3_elif3.py
+===================================================================
+diff --git a/2_Conditional Statements/Ex3_elif3.py b/2_Conditional Statements/Ex3_elif3.py
+deleted file mode 100644
+--- a/2_Conditional Statements/Ex3_elif3.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,13 +0,0 @@
+-shoppingAmt=23000
+-
+-if shoppingAmt>=20000:
+-    print("20% discount")
+-elif shoppingAmt>=10000:      #300>=10000
+-    print("10% discount")
+-elif shoppingAmt>=5000:      #300>=5000
+-    print("5% discount")
+-else:
+-    print("no discount")
+-
+-
+-
+Index: 2_Conditional Statements/Ex4_nested_if2.py
+===================================================================
+diff --git a/2_Conditional Statements/Ex4_nested_if2.py b/2_Conditional Statements/Ex4_nested_if2.py
+deleted file mode 100644
+--- a/2_Conditional Statements/Ex4_nested_if2.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,17 +0,0 @@
+-
+-UN="abc"
+-PWD="xyz"
+-
+-
+-# abc==abc1
+-if UN=="abc":              #outer if
+-    print("Correct UN entered")
+-    print("Enter PWD")
+-    #  xyz==xyz1
+-    if PWD=="xyz1":          #inner/nested if
+-        print("correct pwd entered")
+-        print("home page visible")
+-    else:
+-        print("wrong pwd entered")
+-else:
+-    print("Wrong UN entered")
+\ No newline at end of file
+Index: 8_Constrctor/Ex3_UserDefinedConstructor_WithParameter1.py
+===================================================================
+diff --git a/8_Constrctor/Ex3_UserDefinedConstructor_WithParameter1.py b/8_Constrctor/Ex3_UserDefinedConstructor_WithParameter1.py
+deleted file mode 100644
+--- a/8_Constrctor/Ex3_UserDefinedConstructor_WithParameter1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,66 +0,0 @@
+-print("----Ex3: User defined with parameter constructor----")
+-
+-class Demo3:
+-
+-    #user defined with 2 parameter constructor
+-    #use1: initialize class variable
+-    #use2: copy all the members of class into object
+-    def __init__(self,a,b):     #a=10, b=20 #local variable
+-        self.num1=a        #10     #assign local variable info into class variable
+-        self.num2=b        #20
+-
+-    def add(self):
+-        print(self.num1+self.num2)    #10+20
+-
+-    def mult(self):
+-        print(self.num1*self.num2)
+-
+-    def sub(self):
+-        print(self.num1-self.num2)
+-
+-
+-d1=Demo3(10,20)
+-d1.add()      #30
+-d1.mult()     #200
+-d1.sub()      #-10
+-print("-----")
+-
+-d2=Demo3(50,60)
+-d1.add()
+-d1.mult()
+-d1.sub()
+-print("-----")
+-
+-d3=Demo3(2,3)
+-d3.add()
+-d3.mult()
+-d3.sub()
+-
+-
+-
+-print("-------------------Example without user defined with parameter Constructor------------------")
+-
+-
+-class Demo4:
+-
+-    num1=5        #class variable
+-    num2=6
+-
+-    def add(self):
+-        print(self.num1+self.num2)    #30+18=48
+-
+-    def mult(self):
+-        print(self.num1*self.num2)
+-
+-    def sub(self):
+-        print(self.num1-self.num2)
+-
+-d4=Demo4()
+-d4.add()
+-d4.mult()
+-d4.sub()
+-print("---------------")
+-d5=Demo4()
+-d5.add()
+-d5.mult()
+-d5.sub()
+\ No newline at end of file
+Index: 13_ModulesPackages/Animal.py
+===================================================================
+diff --git a/13_ModulesPackages/Animal.py b/13_ModulesPackages/Animal.py
+deleted file mode 100644
+--- a/13_ModulesPackages/Animal.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,8 +0,0 @@
+-#Module1: Animal
+-
+-def fly():
+-   print("Animal can't fly")
+-
+-
+-def colour():
+-   print("Animal is black")
+Index: T13_Package2/Test3.py
+===================================================================
+diff --git a/T13_Package2/Test3.py b/T13_Package2/Test3.py
+deleted file mode 100644
+--- a/T13_Package2/Test3.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,24 +0,0 @@
+-#packageName: T13_package2
+-#moduleName: Test3
+-
+-#from packageName import moduleName
+-        # moduleName.fn()                       -> calling function
+-        # obj=moduleName.className()             -> create object
+-        # obj.methodName()                      ->non-static method calling
+-        # moduleName.className.methodName()     -> static method calling
+-
+-
+-from T13_Package1 import Test1
+-
+-#call function
+-Test1.f1()
+-Test1.f2()
+-
+-#create object
+-obj1=Test1.Demo1()
+-
+-#call non-static method
+-obj1.m1()
+-
+-#static method calling
+-Test1.Demo1.m2()
+\ No newline at end of file
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/30th May 2026.iml" filepath="$PROJECT_DIR$/.idea/30th May 2026.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: 9_Inheritance/Ex5_InheritanceInStaticMethods.py
+===================================================================
+diff --git a/9_Inheritance/Ex5_InheritanceInStaticMethods.py b/9_Inheritance/Ex5_InheritanceInStaticMethods.py
+deleted file mode 100644
+--- a/9_Inheritance/Ex5_InheritanceInStaticMethods.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,23 +0,0 @@
+-print("---static method inheritance--")
+-
+-#super class
+-class Test1:
+-
+-   @staticmethod
+-   def m1():
+-       print("static method m1 from super class Test1")
+-
+-#sub class
+-class Test2(Test1):
+-
+-   @staticmethod
+-   def m2():
+-       print("static method m2 from sub class Test2")
+-
+-   # @staticmethod
+-   # def m1():
+-   #     print("static method m1 from super class Test1")
+-
+-
+-Test2.m1()
+-Test2.m2()
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: 8_Constrctor/Ex1_DefaultConstrctor.py
+===================================================================
+diff --git a/8_Constrctor/Ex1_DefaultConstrctor.py b/8_Constrctor/Ex1_DefaultConstrctor.py
+deleted file mode 100644
+--- a/8_Constrctor/Ex1_DefaultConstrctor.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,30 +0,0 @@
+-print("-----Example of default constructor-------")
+-
+-class Demo1:
+-
+-   #default constructor -> provided by compiler
+-   # use1: copy all the members of class into object
+-
+-   # def __init__(self):
+-   #     constructor body
+-
+-   def m1(self):
+-       print("running non-static method m1")
+-
+-
+-d1=Demo1()         #constructor call
+-d1.m1()
+-
+-#1: d1 -> objectName -> to identify/refer object
+-#2: Demo1() -> className() -> Constructor call -> copy all the non-static members class into object
+-
+-
+-print("-----Example of default constructor with static method-------")
+-
+-class Demo2:
+-
+-    @staticmethod
+-    def m2():
+-        print("running static method")
+-
+-Demo2.m2()
+Index: 1_Varibles/Demo4.py
+===================================================================
+diff --git a/1_Varibles/Demo4.py b/1_Varibles/Demo4.py
+deleted file mode 100644
+--- a/1_Varibles/Demo4.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,10 +0,0 @@
+-
+-sName="Amol"
+-sDept="Electrical"
+-sRollNum=101
+-sPer=65.1
+-
+-print("Student Name: ",sName)
+-print("Student Department: ",sDept)
+-print("Student Roll Num: ",sRollNum)
+-print("Student Percentage: ",sPer,"%")
+Index: 5_Functions/Ex1_FunctionWithout_And_With_Parameter.py
+===================================================================
+diff --git a/5_Functions/Ex1_FunctionWithout_And_With_Parameter.py b/5_Functions/Ex1_FunctionWithout_And_With_Parameter.py
+deleted file mode 100644
+--- a/5_Functions/Ex1_FunctionWithout_And_With_Parameter.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,93 +0,0 @@
+-
+-print("---------Function without/zero parameter---------")
+-# Function Syntax
+-
+-# def functionName():        function declaration
+-#     functionBody
+-
+-
+-# function call/run syntax
+-# functionName()
+-
+-
+-def f1():
+-    print("---Function started -----")
+-    print("Hi")
+-    print("Hello")
+-    print("------Function Ended------")
+-
+-f1()
+-
+-def add():
+-    num1=10
+-    num2=20
+-    print(num1+num2)
+-
+-add()
+-
+-
+-print("---------Function with parameter---------")
+-
+-#function with 1 int parameter
+-def findSquareOfNum(num):
+-    print(num*num)
+-
+-findSquareOfNum(3)
+-findSquareOfNum(4)
+-findSquareOfNum(8)
+-
+-print("----")
+-
+-#function with 2 int parameter
+-def add(num3, num4):      #num3=90, num4=50
+-    print(num3+num4)     #90+50=140
+-
+-add(5,6)       #11
+-add(90,50)     #140
+-add(6,2)       #8
+-
+-print("---")
+-
+-#function with 2 int parameter
+-def arithmaricOperationDiv(num1, num2):
+-    print(num1/num2)       #6/2=3
+-
+-arithmaricOperationDiv(6,2)
+-arithmaricOperationDiv(2.6,2)
+-
+-
+-print("-----")
+-
+-#function 1 String parameter
+-def printName(name):
+-    print(name)
+-
+-printName("Amol")
+-printName("Mahesh")
+-
+-print("-----")
+-
+-#Function with 2 String parameter
+-def printFullName(FN, LN):
+-    print("Firstname: ",FN)
+-    print("lastname: ",LN)
+-
+-printFullName("ganesh","patil")
+-printFullName("suresh","patil")
+-
+-
+-print("-----------")
+-
+-def studentInfo(sName, sRollNum, sPer, sGrade):
+-    print("Student Name: ",sName)
+-    print("Student Roll Num: ",sRollNum)
+-    print("Student Percentage: ",sPer)
+-    print("Student Grade: ",sGrade)
+-
+-
+-studentInfo("Ankita", 101, 65.1, "A+")
+-studentInfo("Nikita",102,62.3,"A+")
+-
+-
+-
+-
+Index: 13_ModulesPackages/Calculator1.py
+===================================================================
+diff --git a/13_ModulesPackages/Calculator1.py b/13_ModulesPackages/Calculator1.py
+deleted file mode 100644
+--- a/13_ModulesPackages/Calculator1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,19 +0,0 @@
+-# Module1: Calculator1
+-
+-def add(num1, num2):
+-    print(num1+num2)
+-
+-def mult(num1, num2):
+-    print(num1*num2)
+-
+-
+-class Demo1:
+-    def m1(self):
+-        print("running method m1 from Demo1 class")
+-
+-    def m2(self):
+-        print("running method m2 from Demo1 class")
+-
+-    @staticmethod
+-    def m3():
+-        print("running static method m3 from Demo1 class")
+Index: 9_Inheritance/Ex2_MultiLevelInheritance.py
+===================================================================
+diff --git a/9_Inheritance/Ex2_MultiLevelInheritance.py b/9_Inheritance/Ex2_MultiLevelInheritance.py
+deleted file mode 100644
+--- a/9_Inheritance/Ex2_MultiLevelInheritance.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,29 +0,0 @@
+-#Super class
+-class WhatsAppV1:
+-   def chat(self):
+-       print("chat feature")
+-
+-#Super/sub class
+-class WhatsAppV2(WhatsAppV1):
+-   def audioCalling(self):
+-       print("Audio Calling Feature")
+-
+-   # def chat(self):
+-   #     print("chat feature")
+-
+-#sub class
+-class WhatsAppV3(WhatsAppV2):
+-   def videoCalling(self):
+-       print("Audio Calling Feature")
+-
+-   # def audioCalling(self):
+-   #     print("Audio Calling Feature")
+-
+-   # def chat(self):
+-   #     print("chat feature")
+-
+-
+-w3=WhatsAppV3()
+-w3.chat()
+-w3.audioCalling()
+-w3.videoCalling()
+Index: 5_Functions/Ex3_PostionParameter_KeywordParameter_OptionlaParameter.py
+===================================================================
+diff --git a/5_Functions/Ex3_PostionParameter_KeywordParameter_OptionlaParameter.py b/5_Functions/Ex3_PostionParameter_KeywordParameter_OptionlaParameter.py
+deleted file mode 100644
+--- a/5_Functions/Ex3_PostionParameter_KeywordParameter_OptionlaParameter.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,42 +0,0 @@
+-
+-print("----------Example of Positional parameter------------")
+-
+-def greet(name, age):
+-   print("My name is",name, "& age is",age)
+-
+-
+-# Calling the function with positional arguments
+-greet("ganesh",15)  # Correct order
+-greet("suresh", 22)  # Correct order
+-greet(20, "ramesh")  # Incorrect order, meaning changes
+-
+-
+-
+-print("----------Example of Keyword parameter------------")
+-
+-def greet(name, age):
+-   print("My name is",name, "& age is",age)
+-
+-# Calling the function with keyword parameter
+-greet(name="Amol",age=15)
+-greet(age=20,name="suresh")
+-
+-
+-print("-------Example of Optional/default parameter:--------")
+-
+-def studentInfo(name, age=10):
+-   print(name,": ",age)
+-
+-studentInfo(name="rahul")
+-studentInfo(name="pooja", age=25)
+-
+-
+-print("------")
+-
+-
+-def studentDetails(name="abc", age=10):
+-   print(name,": ",age)
+-
+-studentDetails()
+-studentDetails(name="ganesh")
+-studentDetails(name="suresh",age=15)
+Index: Sample1/Demo3.py
+===================================================================
+diff --git a/Sample1/Demo3.py b/Sample1/Demo3.py
+deleted file mode 100644
+--- a/Sample1/Demo3.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,1 +0,0 @@
+-print("oscnoicncdscndscdscds")
+\ No newline at end of file
+Index: 6_Class_And_Object/Ex2_Static_Method.py
+===================================================================
+diff --git a/6_Class_And_Object/Ex2_Static_Method.py b/6_Class_And_Object/Ex2_Static_Method.py
+deleted file mode 100644
+--- a/6_Class_And_Object/Ex2_Static_Method.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,31 +0,0 @@
+-
+-#2: Example od Static methods call
+-
+-class Demo2:
+-
+-    @staticmethod
+-    def m1():
+-        print("running static without parameter method")
+-
+-    @staticmethod
+-    def divArithmaticOperation(num1,num2):
+-        print(num1/num2)
+-        print("running static method with parameter")
+-
+-    @staticmethod
+-    def AddArithmaticOperation(num1, num2):
+-        print("running static method with return type")
+-        return num1+num2
+-
+-
+-#To call static method
+-# className.methodName()
+-
+-Demo2.m1()
+-Demo2.divArithmaticOperation(30,5)
+-num3=Demo2.AddArithmaticOperation(7,9)
+-print(num3)
+-print("--")
+-print(Demo2.AddArithmaticOperation(7,9))
+-
+-
+Index: 9_Inheritance/Ex1_SingleLevelInheritance.py
+===================================================================
+diff --git a/9_Inheritance/Ex1_SingleLevelInheritance.py b/9_Inheritance/Ex1_SingleLevelInheritance.py
+deleted file mode 100644
+--- a/9_Inheritance/Ex1_SingleLevelInheritance.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,33 +0,0 @@
+-#Parent/super/base class
+-class Father:
+-   def car(self):
+-       print("method car from father class")
+-
+-   def money(self):
+-       print("method money from father class")
+-
+-   def home(self):
+-       print("method home from father class")
+-
+-#sub/child class
+-class Son(Father):
+-   def bike(self):
+-       print("Bike: FZ V3 from Son class")
+-
+-   # def car(self):
+-   #     print("method car from father class")
+-   #
+-   # def money(self):
+-   #     print("method money from father class")
+-   #
+-   # def home(self):
+-   #     print("method home from father class")
+-
+-
+-
+-s=Son()
+-s.bike()
+-s.car()
+-s.money()
+-s.home()
+-
+Index: 9_Inheritance/Ex4_MultipleInheritance.py
+===================================================================
+diff --git a/9_Inheritance/Ex4_MultipleInheritance.py b/9_Inheritance/Ex4_MultipleInheritance.py
+deleted file mode 100644
+--- a/9_Inheritance/Ex4_MultipleInheritance.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,28 +0,0 @@
+-#Super class 1
+-class A:
+-   def m1(self):
+-       print("Method m1 from A class")
+-
+-#super class 2
+-class B:
+-   def m2(self):
+-       print("Method m2 from B class")
+-
+-#subc class
+-class C(A,B):
+-   def m3(self):
+-       print("Method m3 from C class")
+-
+-   # def m1(self):
+-   #     print("Method m1 from A class")
+-   #
+-   # def m2(self):
+-   #     print("Method m2 from B class")
+-
+-
+-
+-print("------Features of class C-----")
+-c=C()
+-c.m1()
+-c.m2()
+-c.m3()
+Index: 13_ModulesPackages/AnimalAndBird.py
+===================================================================
+diff --git a/13_ModulesPackages/AnimalAndBird.py b/13_ModulesPackages/AnimalAndBird.py
+deleted file mode 100644
+--- a/13_ModulesPackages/AnimalAndBird.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,38 +0,0 @@
+-#Module3: AnimalAndBird
+-
+-print("---------------Apr1----------------")
+-
+-import Animal
+-import Bird
+-
+-print("--call Animal module contents---")
+-Animal.fly()
+-Animal.colour()
+-
+-print("--call Bird module contents---")
+-Bird.fly()
+-Bird.colour()
+-
+-
+-
+-print("---------------Apr2--------------")
+-
+-from Animal import colour,fly
+-colour()
+-fly()
+-
+-print("-----")
+-
+-from Bird import colour,fly
+-colour()
+-fly()
+-
+-
+-print("------import all contents using 2nd Apr-----")
+-from Bird import *
+-colour()
+-fly()
+-
+-
+-
+-
+Index: 3_Loops/Ex2_WhileLoop.py
+===================================================================
+diff --git a/3_Loops/Ex2_WhileLoop.py b/3_Loops/Ex2_WhileLoop.py
+deleted file mode 100644
+--- a/3_Loops/Ex2_WhileLoop.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,59 +0,0 @@
+-
+-# Syntax of While loop
+-
+-# startNum                    //step1
+-# while condition:            //step2
+-#     while loop body
+-#     incr/decr               //step3
+-
+-
+-print("----print num from 1 to 5-----")
+-
+-num=1
+-#      6<6
+-while num<6:
+-    print(num)      #1 2 3 4 5
+-    num+=1          #6      # num=num+1
+-
+-print("-------")
+-
+-num=1
+-#      6<=5
+-while num<=5:
+-    print(num)           #1 2 3 4 5
+-    num+=1               #6
+-
+-print("----print num from 100 to 150-----")
+-starNum=100
+-while starNum<=150:
+-    print(starNum)
+-    starNum+=1
+-
+-
+-print("----print even num from 2 to 8-----")
+-starNum=2
+-while starNum<=8:
+-    print(starNum)
+-    starNum+=2
+-
+-
+-print("----print num from 5 to 1-----")
+-num=5
+-#          0>=1
+-while num>=1:
+-    print(num)        #5 4 3 2 1
+-    num-=1            #0
+-
+-
+-print("----print Even num from 10 to 4-----")
+-num=10
+-#      2>=4
+-while num>=4:
+-    print(num)      #10 8 6 4
+-    num-=2          #2
+-
+-
+-
+-
+-
+-
+Index: 6_Class_And_Object/Ex1_Instance_Or_NonStatic_Method.py
+===================================================================
+diff --git a/6_Class_And_Object/Ex1_Instance_Or_NonStatic_Method.py b/6_Class_And_Object/Ex1_Instance_Or_NonStatic_Method.py
+deleted file mode 100644
+--- a/6_Class_And_Object/Ex1_Instance_Or_NonStatic_Method.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,76 +0,0 @@
+-
+-#Ex1: Instance/non-static method
+-
+-class Demo1:
+-
+-    #Without parameter method
+-    def m1(self):
+-        print("running without parameter method m1")
+-
+-    #Method with parameter
+-    def squareOfNum(self,num):
+-        print("running with parameter method")
+-        print(num * num)
+-
+-    #Method with return type
+-    def add(self,num1, num2):   #num1=2, num2=3
+-        addValue=num1+num2      # 2+3=5
+-        print("running method with return type")
+-        return addValue
+-
+-#To Call/Run Instance method
+-# 1: Create object/instance of class
+-# 2: method call
+-
+-# Syntax of object creation
+-# objName=className()
+-
+-#Syntax of method call
+-# objName.methodName()
+-
+-d1=Demo1()           #Object Creation
+-d1.m1()              #Method calling
+-d1.squareOfNum(5)
+-num3=d1.add(2,3)
+-print(num3)
+-print("----")
+-print(d1.add(4,5))
+-
+-
+-#Para1: d1  -> object name -> to refer/identify object
+-#Para2: Demo1() -> className() -> Constructor -> copy all the members of class into object
+-
+-print("-----------------")
+-
+-
+-class ArithMaticOperation:
+-
+-    def add(self,n1,n2):
+-        print(n1+n2)
+-
+-    def mult(self,n1,n2):
+-        print(n1*n2)
+-
+-    def sub(self,n1,n2):
+-        print(n1-n2)
+-
+-    def div(self,n1,n2):
+-        print(n1/n2)
+-
+-obj1=ArithMaticOperation()
+-obj1.add(10,20)
+-obj1.mult(10,20)
+-obj1.sub(10,20)
+-obj1.div(10,20)
+-obj1.div(4,5)
+-
+-print("--Create n objects of same class")
+-
+-obj2=ArithMaticOperation()
+-obj2.add(4,9)
+-obj2.sub(55,22)
+-
+-
+-
+-
+-
+Index: T13_Package2/Test4.py
+===================================================================
+diff --git a/T13_Package2/Test4.py b/T13_Package2/Test4.py
+deleted file mode 100644
+--- a/T13_Package2/Test4.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,21 +0,0 @@
+-
+-from T13_Package1 import Test1,Test2
+-
+-#call fn
+-Test1.f1()
+-Test1.f2()
+-Test2.f3()
+-Test2.f4()
+-
+-
+-#create objet
+-d1=Test1.Demo1()
+-d2=Test2.Demo2()
+-
+-#call non-static methods
+-d1.m1()
+-d2.m3()
+-
+-#call static methods
+-Test1.Demo1.m2()
+-Test2.Demo2.m4()
+\ No newline at end of file
+Index: Sample1/Demo2.py
+===================================================================
+diff --git a/Sample1/Demo2.py b/Sample1/Demo2.py
+deleted file mode 100644
+--- a/Sample1/Demo2.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,1 +0,0 @@
+-print("hi")
+\ No newline at end of file
+Index: 9_Inheritance/Ex3_HirarchicalInheritance.py
+===================================================================
+diff --git a/9_Inheritance/Ex3_HirarchicalInheritance.py b/9_Inheritance/Ex3_HirarchicalInheritance.py
+deleted file mode 100644
+--- a/9_Inheritance/Ex3_HirarchicalInheritance.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,53 +0,0 @@
+-#Super class
+-class Father:
+-   def car(self):
+-       print("method car from father class")
+-
+-   def money(self):
+-       print("method money from father class")
+-
+-   def home(self):
+-       print("method home from father class")
+-
+-#sub class 1
+-class Son1(Father):
+-   def bike(self):
+-       print("Bike: FZ V3 from Son1 class")
+-
+-   # def car(self):
+-   #     print("method car from father class")
+-   #
+-   # def money(self):
+-   #     print("method money from father class")
+-   #
+-   # def home(self):
+-   #     print("method home from father class")
+-
+-#sub class 2
+-class Son2(Father):
+-   def laptop(self):
+-       print("HP Laptop from Son2 class")
+-
+-   # def car(self):
+-   #     print("method car from father class")
+-   #
+-   # def money(self):
+-   #     print("method money from father class")
+-   #
+-   # def home(self):
+-   #     print("method home from father class")
+-
+-
+-print("------Features of Son1 class-------")
+-s1=Son1()
+-s1.bike()
+-s1.car()
+-s1.money()
+-s1.home()
+-
+-print("------Features of Son2 class-------")
+-s2=Son2()
+-s2.laptop()
+-s2.car()
+-s2.money()
+-s2.home()
+\ No newline at end of file
+Index: 10_PolyMorphism/Ex1_Sample1.py
+===================================================================
+diff --git a/10_PolyMorphism/Ex1_Sample1.py b/10_PolyMorphism/Ex1_Sample1.py
+deleted file mode 100644
+--- a/10_PolyMorphism/Ex1_Sample1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,12 +0,0 @@
+-print("-------Ex1: Example of polymorphism (1 object many forms)--------")
+-
+-print(5+5)          #10
+-print("5"+"5")      #55             #same function[print()] diff behaviour
+-
+-print("-----")
+-
+-s1="abcd"
+-print(len(s1))       #4
+-
+-l1=["abc",10,55.1]		 #same function[len()] diff behaviour
+-print(len(l1))      #3
+Index: 10_PolyMorphism/Ex2_MethodOverride.py
+===================================================================
+diff --git a/10_PolyMorphism/Ex2_MethodOverride.py b/10_PolyMorphism/Ex2_MethodOverride.py
+deleted file mode 100644
+--- a/10_PolyMorphism/Ex2_MethodOverride.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,115 +0,0 @@
+-print("-------Ex2: Method Overriding---------")
+-
+-
+-#super/parent/base class
+-class Father:
+-   def car(self):
+-       print("Car: Tata")
+-
+-   def money(self):
+-       print("Money: 1L")
+-
+-   def home(self):
+-       print("home: 2BHK")
+-
+-
+-#sub/child class
+-class Son(Father):
+-   def mobile(self):
+-       print("Mobile: Samsung")
+-
+-   def car(self):       #method override
+-       print("Car: Kia")
+-
+-   def money(self):     #method override
+-       print("Money: 5L")
+-
+-   # def home(self):
+-   #     print("home: 2BHK")
+-
+-s=Son()
+-s.mobile()
+-s.car()
+-s.money()
+-s.home()
+-
+-f=Father()
+-f.car()
+-f.money()
+-f.home()
+-
+-
+-print("-----Ex2: Method override in multilevel inheritance-----")
+-class GrandFather:
+-   def home(self):
+-       print("1 BHK")
+-
+-   def money(self):
+-       print("1 Lakh")
+-
+-
+-class Father(GrandFather):
+-   def home(self):        # method override
+-       print("2 BHK")
+-
+-   def money(self):       # method override
+-       print("2 Lakh")
+-
+-
+-class Son(Father):
+-   def home(self):        # method override
+-       print("3 BHK")
+-
+-   def money(self):        # method override
+-       print("3 Lakh")
+-
+-
+-s=Son()
+-s.home()
+-s.money()
+-
+-print("------Ex3: Method override with super()--------")
+-
+-class A:
+-   def m1(self):
+-       print("method m1 from parent class")
+-
+-class B(A):
+-   def m1(self):           #method override
+-       super().m1()                             #call existing definition/implementation
+-       print("method m1 from child class")      #call new  definition/implementation
+-
+-b=B()
+-b.m1()
+-
+-print("--------EX4: Variable override--------")
+-print("-Ex4.1: print only override child class variable-")
+-
+-class parent:
+-   name="amol"
+-
+-class child(parent):
+-   name="AMOL"       #variable override/re-initialize
+-
+-c=child()
+-print(c.name)
+-
+-print("--Ex4.2: print both parent & child class variable--")
+-
+-class parent1:
+-   name="amol"
+-
+-class child1(parent1):
+-   name="AMOL"
+-
+-   def test(self):
+-       print(self.name)           #call current class variable
+-       print(super().name)        #call super class variable
+-
+-c=child1()
+-c.test()
+-
+-
+-
+-
+-
+Index: 2_Conditional Statements/Ex2_if_else1.py
+===================================================================
+diff --git a/2_Conditional Statements/Ex2_if_else1.py b/2_Conditional Statements/Ex2_if_else1.py
+deleted file mode 100644
+--- a/2_Conditional Statements/Ex2_if_else1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,11 +0,0 @@
+-
+-marks=20
+-
+-#  20>=35
+-if marks>=35:
+-    print("Pass")
+-else:
+-    print("Fail")
+-
+-
+-print("hi")
+Index: 1_Varibles/Demo1.py
+===================================================================
+diff --git a/1_Varibles/Demo1.py b/1_Varibles/Demo1.py
+deleted file mode 100644
+--- a/1_Varibles/Demo1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,15 +0,0 @@
+-
+-#Student Details
+-
+-#Step1: variable declaration
+-sName="Amol"                              #varibleName="variableValue"
+-sDept="Electrical"
+-sRollNum=101
+-sPer=65.1
+-
+-
+-#Step2: variable usage
+-print(sName)
+-print(sDept)
+-print(sRollNum)
+-print(sPer)
+Index: 4_Data Types/Ex1_List.py
+===================================================================
+diff --git a/4_Data Types/Ex1_List.py b/4_Data Types/Ex1_List.py
+deleted file mode 100644
+--- a/4_Data Types/Ex1_List.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,106 +0,0 @@
+-num=10
+-print(type(num))
+-
+-
+-studentData=["Amol", 101, 75.1,"A+", 101]
+-
+-#display data
+-print(studentData)
+-
+-#print type of object
+-print(type(studentData))
+-
+-#print length/size of list
+-print(len(studentData))
+-
+-#get specific data from list object
+-print(studentData[4])
+-
+-# Note: in case of wrong index:- IndexError: list index out of range
+-
+-#Add new data in list object
+-#append/extend/
+-# 1: append- Add new element/data at last position
+-studentData.append("xyz")
+-print(studentData)
+-
+-#2: extend - add multiple new elements at the end of list object
+-studentData.extend([50,10,"abc",88.1])
+-print(studentData)
+-
+-# 3: add new element at specific position/index in list object (right shift operation)
+-studentData.insert(4,500)
+-print(studentData)
+-
+-
+-#remove data from list
+-#pop()/pop(index)/remove(object/element)
+-
+-#1: pop() :-  remove data from last position
+-studentData.pop()
+-print(studentData)
+-
+-#2: pop(index) :- remove data from specific index  -> left shift operation
+-studentData.pop(3)
+-print(studentData)
+-
+-#3: remove(element/object) :- remove specific element from list
+-studentData.remove(101)
+-print(studentData)
+-
+-
+-#copy list object
+-newStudentData=studentData.copy()
+-print(newStudentData)
+-
+-
+-print("-----Print all data from List Object -----")
+-#              8<8
+-for i in range(0,8):
+-    print(studentData[i])
+-
+-print("----")
+-
+-for i in range(0,len(studentData)):
+-    print(studentData[i])
+-
+-print("----")
+-
+-for singleData in studentData:
+-    print(singleData)
+-
+-
+-#Sorting Operation
+-s1=[40,10,30,50,20]
+-print("------Before Sorting------")
+-print(s1)
+-
+-
+-s1.sort()    #[10, 20, 30, 40, 50]
+-print("----After Sorting (Ascending order)----")
+-print(s1)
+-
+-
+-s1.reverse()    #[50, 40, 30, 20, 10]
+-print("----After Sorting (Descending order)----")
+-print(s1)
+-
+-
+-#Counting & Searching
+-s2=[50,30,20,30,60,90,30,60]
+-
+-print(s2.count(60))       #get occurrence of specific element
+-
+-print(s2.index(30))       #get index of specific element
+-
+-
+-print("---Clear list object----")
+-s2.clear()           #clear all elements from list
+-print(s2)
+-
+-
+-print("---Delete list object----")
+-del s2
+-print(s2)
+-
+-
+Index: 2_Conditional Statements/Ex5_MatchCase2.py
+===================================================================
+diff --git a/2_Conditional Statements/Ex5_MatchCase2.py b/2_Conditional Statements/Ex5_MatchCase2.py
+deleted file mode 100644
+--- a/2_Conditional Statements/Ex5_MatchCase2.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,19 +0,0 @@
+-day="abc"
+-
+-match day:
+-    case "mon":
+-        print("day 1")
+-    case "tue":
+-        print("day 2")
+-    case "wed":
+-        print("day 3")
+-    case "thr":
+-        print("day 4")
+-    case "fri":
+-        print("day 5")
+-    case "sat":
+-        print("day 6")
+-    case "sun":
+-        print("day 7")
+-    case _:
+-        print("Invalid Input")
+Index: 7_TypesOfVariable/Ex1_GlobalVariable.py
+===================================================================
+diff --git a/7_TypesOfVariable/Ex1_GlobalVariable.py b/7_TypesOfVariable/Ex1_GlobalVariable.py
+deleted file mode 100644
+--- a/7_TypesOfVariable/Ex1_GlobalVariable.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,26 +0,0 @@
+-print("----1: Example of Global variable----")
+-
+-num1=10        #Global variable
+-
+-def f1():
+-    print("Running F1: ",num1)                 #VariableName
+-
+-def f2():
+-    print("Running F2: ",num1)
+-
+-
+-class Test1:
+-
+-    def m1(self):
+-        print("running instance method m1: ",num1)             #VariableName
+-
+-    @staticmethod
+-    def m2():
+-        print("running static method m2 ",num1)                #VariableName
+-
+-
+-f1()
+-f2()
+-Test1.m2()
+-t1=Test1()
+-t1.m1()
+\ No newline at end of file
+Index: 9_Inheritance/Ex6_InheritanceWith_Variables.py
+===================================================================
+diff --git a/9_Inheritance/Ex6_InheritanceWith_Variables.py b/9_Inheritance/Ex6_InheritanceWith_Variables.py
+deleted file mode 100644
+--- a/9_Inheritance/Ex6_InheritanceWith_Variables.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,22 +0,0 @@
+-print("----Ex6: Inheritance with Variables-----")
+-
+-class Demo1:
+-    num1=10
+-
+-    def m1(self):
+-        print("running method m1 from super class")
+-
+-class Demo2(Demo1):
+-    num2=20
+-
+-    def m2(self):
+-        print("running method m2 from sub class")
+-        print(self.num1+self.num2)
+-
+-d2=Demo2()
+-d2.m1()
+-d2.m2()
+-print(d2.num1)
+-print(d2.num2)
+-
+-
+Index: 13_ModulesPackages/Calculator2.py
+===================================================================
+diff --git a/13_ModulesPackages/Calculator2.py b/13_ModulesPackages/Calculator2.py
+deleted file mode 100644
+--- a/13_ModulesPackages/Calculator2.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,16 +0,0 @@
+-#module2: Calculator2
+-
+-def div(n1, n2):
+-    print(n1/n2)
+-
+-def sub(n1, n2):
+-    print(n1-n2)
+-
+-class Demo2:
+-    def m4(self):
+-        print("running method m4 from Demo2 class")
+-
+-    @staticmethod
+-    def m5():
+-        print("running static method m5 from Demo2 class")
+-
+Index: 8_Constrctor/Ex3_UserDefinedContractor_WithParameter2.py
+===================================================================
+diff --git a/8_Constrctor/Ex3_UserDefinedContractor_WithParameter2.py b/8_Constrctor/Ex3_UserDefinedContractor_WithParameter2.py
+deleted file mode 100644
+--- a/8_Constrctor/Ex3_UserDefinedContractor_WithParameter2.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,32 +0,0 @@
+-print("------------# Ex3.2: Constructor With Parameter---------")
+-
+-
+-class Employee:
+-
+-   empCompanyName="abc"
+-
+-   def __init__(self,name,id,salary):         #with 4 para constructor
+-       self.empName=name          #assign local variable info into class variable
+-       self.empID=id
+-       self.empSal=salary
+-
+-
+-   def empInfo(self):
+-       print(self.empName)
+-       print(self.empID)
+-       print(self.empSal)
+-       print(self.empCompanyName)
+-
+-
+-e1=Employee("Amol",101,50000.1)
+-e1.empInfo()
+-
+-print("--")
+-e2=Employee("Rahul",102,682682.1)
+-e2.empInfo()
+-
+-print("--")
+-e3=Employee("Heena",103,78000)
+-e3.empInfo()
+-
+-
+Index: T13_Package1/Test2.py
+===================================================================
+diff --git a/T13_Package1/Test2.py b/T13_Package1/Test2.py
+deleted file mode 100644
+--- a/T13_Package1/Test2.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,16 +0,0 @@
+-
+-
+-def f3():
+-    print("running f3 from Package1-Test2 module")
+-
+-def f4():
+-    print("running f4 from Package1-Test2 module")
+-
+-
+-class Demo2:
+-    def m3(self):
+-        print("running method m3 from Test2 Module1")
+-
+-    @staticmethod
+-    def m4():
+-        print("running static method m4 from Test2 Module1")
+\ No newline at end of file
+Index: 4_Data Types/Ex3_Dictionary.py
+===================================================================
+diff --git a/4_Data Types/Ex3_Dictionary.py b/4_Data Types/Ex3_Dictionary.py
+deleted file mode 100644
+--- a/4_Data Types/Ex3_Dictionary.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,100 +0,0 @@
+-
+-# rollNum-int(key):per-float(value)
+-
+-# key:value
+-# 1:59.2
+-# 2:98.5
+-# 3:90.4
+-# 5:62.2
+-# 4:89.1
+-
+-dictObj1={1:59.2, 2:98.5, 3:90.4, 5:62.2, 4:90.4}
+-print(dictObj1)
+-
+-dictObj2={"Mahesh":5, "Ganesh":1, "Suresh":4, "Ramesh":3}
+-print(dictObj2)
+-
+-dictObj3={"Mahesh":"B+", "Ganesh":"C+", 1:"A+", 2:"D+"}      #not recommended
+-print(dictObj3)
+-
+-print("---get length of dict---")
+-print(len(dictObj1))     #5
+-
+-print("---get value of any specific key---")
+-print(dictObj1[3])          #90.4
+-
+-print("----Add new key-value pair -----")
+-dictObj1[6]=68.9
+-print(dictObj1)
+-
+-print("----Update value of existing key -----")
+-dictObj1[2]=99.5
+-print(dictObj1)
+-
+-print("----")
+-print(dictObj2)
+-dictObj2["Ramesh"]=10
+-print(dictObj2)
+-
+-print("-----Remove any specific key-value pair------")
+-print(dictObj1)
+-dictObj1.pop(2)
+-print(dictObj1)
+-
+-print("-----Remove last inserted k-v pair------")
+-dictObj1.popitem()
+-print(dictObj1)
+-
+-print("-----check if any specific key available in dict object------")
+-print(1 in dictObj1)          #True
+-print(8 in dictObj1)          #False
+-
+-print("------get all keys------")
+-allKeys=dictObj1.keys()
+-for singleKey in allKeys:
+-    print(singleKey)
+-
+-print("----")
+-
+-for singleKey in dictObj1.keys():
+-    print(singleKey)
+-
+-
+-print("-----get all values----")
+-allValues=dictObj1.values()
+-for singleValue in allValues:
+-    print(singleValue)
+-
+-print("------")
+-for singleValue in dictObj1.values():
+-    print(singleValue)
+-
+-
+-print("-----get all keys-values----")
+-allItems=dictObj1.items()
+-for key,value in allItems:
+-    print(key,"-",value)
+-
+-print("--")
+-
+-for k, v in dictObj1.items():
+-    print(k, "=", v)
+-
+-print("----")
+-
+-allKeys=dictObj1.keys()
+-for singleKey in allKeys:
+-    print(singleKey,"-",dictObj1[singleKey])
+-
+-
+-print("---clear dict object----")
+-dictObj1.clear()
+-print(dictObj1)
+-
+-
+-print("----delete dict object---")
+-del dictObj1
+-print(dictObj1)
+-
+-
+-
+Index: Demo/Sample1.py
+===================================================================
+diff --git a/Demo/Sample1.py b/Demo/Sample1.py
+deleted file mode 100644
+--- a/Demo/Sample1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,22 +0,0 @@
+-
+-class Demo1:
+-    def __init__(self, n1, n2):
+-        self.n1=n1
+-        self.n2=n2
+-
+-    def m1(self):
+-        print(self.n2+self.n2)
+-
+-
+-class Demo2(Demo1):
+-    def __init__(self,n3,n4,str):
+-            super().__init__(n3,n4)
+-            self.str=str
+-
+-    def m2(self):
+-        print(self.str)
+-
+-d2=Demo2(10,20,"Amol")
+-d2.m1()
+-d2.m2()
+-
+Index: 2_Conditional Statements/Ex1_if1.py
+===================================================================
+diff --git a/2_Conditional Statements/Ex1_if1.py b/2_Conditional Statements/Ex1_if1.py
+deleted file mode 100644
+--- a/2_Conditional Statements/Ex1_if1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,17 +0,0 @@
+-from operator import truediv
+-
+-marks=31
+-
+-#   31>35 or 31=35
+-if marks>=35:
+-    print("Pass")
+-
+-
+-print("hello")
+-
+-
+-# true or true -> true
+-# true or false ->true
+-# false or true -> true
+-# false or false -> false
+-
+Index: Sample1/Demo1.py
+===================================================================
+diff --git a/Sample1/Demo1.py b/Sample1/Demo1.py
+deleted file mode 100644
+--- a/Sample1/Demo1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,2 +0,0 @@
+-print("hello")
+-print("hi")
+\ No newline at end of file
+Index: 7_TypesOfVariable/Ex2_LocalVariable.py
+===================================================================
+diff --git a/7_TypesOfVariable/Ex2_LocalVariable.py b/7_TypesOfVariable/Ex2_LocalVariable.py
+deleted file mode 100644
+--- a/7_TypesOfVariable/Ex2_LocalVariable.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,32 +0,0 @@
+-print("----2: Example of Local Variable---")
+-
+-def f1():
+-    num1=10                 #local variable
+-    print(num1)
+-
+-def f2():
+-    num2=20                 #local variable
+-    print(num2)
+-    # print(num1)            #no access
+-
+-class Test2:
+-
+-    def m1(self):
+-        num3=30              #local variable
+-        print(num3)
+-        # print(num2)      #no Access
+-
+-    @staticmethod
+-    def m2():
+-        num4=40               #local variable
+-        print(num4)
+-
+-
+-f1()
+-f2()
+-Test2.m2()
+-
+-t2=Test2()
+-t2.m1()
+-
+-
+Index: 2_Conditional Statements/Ex3_elif1.py
+===================================================================
+diff --git a/2_Conditional Statements/Ex3_elif1.py b/2_Conditional Statements/Ex3_elif1.py
+deleted file mode 100644
+--- a/2_Conditional Statements/Ex3_elif1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,21 +0,0 @@
+-from operator import truediv
+-
+-marks=20
+-
+-#   20>=65
+-if marks>=65:
+-    print("Distinction")
+-elif marks>=60 and marks<65:    # 20>=60 & 63<65
+-    print("1st class")
+-elif marks>=50 and marks<60:    #20>=50 and 55<60
+-    print("2nd class")
+-elif marks>=35 and marks<50:   #20>=35 and 40<50
+-    print("pass")
+-elif marks<35:              #20<35
+-    print("Fail")
+-
+-
+-# true & true  -> true
+-# true & false ->false
+-# false & true -> false
+-# false & false -> false
+\ No newline at end of file
+Index: 2_Conditional Statements/Ex2_if_else2.py
+===================================================================
+diff --git a/2_Conditional Statements/Ex2_if_else2.py b/2_Conditional Statements/Ex2_if_else2.py
+deleted file mode 100644
+--- a/2_Conditional Statements/Ex2_if_else2.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,8 +0,0 @@
+-
+-shoppingAmt=600
+-
+-if shoppingAmt>=5000:
+-    print("Additional 10% discount")
+-else:
+-    print("No Additional discount")
+-
+Index: 6_Class_And_Object/Ex3_Instance_Static_Methods_InSameClas.py
+===================================================================
+diff --git a/6_Class_And_Object/Ex3_Instance_Static_Methods_InSameClas.py b/6_Class_And_Object/Ex3_Instance_Static_Methods_InSameClas.py
+deleted file mode 100644
+--- a/6_Class_And_Object/Ex3_Instance_Static_Methods_InSameClas.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,45 +0,0 @@
+-
+-class Demo3:
+-
+-    #instance method
+-    def m1(self):
+-        print("running without parameter method")
+-
+-    # instance method
+-    def m2(self,n1,n2):
+-        n3=n1+n2
+-        print("running with parameter method-",n3)
+-
+-    # instance method
+-    def m3(self,n1):
+-        n2=n1*n1
+-        print("running with return type method")
+-        return n2
+-
+-    @staticmethod
+-    def m4():
+-        print("running without parameter static method ")
+-
+-    @staticmethod
+-    def m5(n1,n2):
+-        n3=n1-n2
+-        print("running with parameter static method ",n3)
+-
+-    @staticmethod
+-    def m6(n1):
+-        n2=n1*n1*n1
+-        print("running with return type static method ")
+-        return n2
+-
+-print("---Calling instance method---")
+-d3=Demo3()
+-d3.m1()
+-d3.m2(2,9)
+-n4=d3.m3(9)
+-print(n4)
+-
+-print("------Calling static method-------")
+-Demo3.m4()
+-Demo3.m5(5,7)
+-n5=Demo3.m6(4)
+-print(n5)
+\ No newline at end of file
+Index: 4_Data Types/Ex2_Set.py
+===================================================================
+diff --git a/4_Data Types/Ex2_Set.py b/4_Data Types/Ex2_Set.py
+deleted file mode 100644
+--- a/4_Data Types/Ex2_Set.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,73 +0,0 @@
+-
+-st={102, "Mahesh", 66.5, "Maths", "A+",102}
+-print(st)
+-
+-
+-#get size of set object
+-print(len(st))
+-
+-# print(st[0])   Invalid statement
+-
+-print("---Add New Single Element---")
+-st.add("ganesh")
+-print(st)
+-
+-
+-print("---Add New multiple Elements---")
+-st.update([75.2, "B+"])
+-print(st)
+-
+-
+-print("------Remove Element-----")
+-st.remove("B+")    #Remove Specific Element -> Through error even if element does not exist
+-print(st)
+-
+-st.discard(103)      # No error even if element does not exist
+-print(st)
+-
+-st.pop()    #remove random element
+-print(st)
+-
+-
+-print("----copying set object-----")
+-st1=st.copy()
+-print(st1)
+-
+-
+-print("----Sorting Set---")
+-st2={40,50,10,40,30}   #{40,50,10,30}
+-print("-----before sorting set object---")
+-print(st2)
+-lstObj=sorted(st2)    #[10, 20, 30, 40, 50]  sorted data stored into list object
+-print(lstObj)
+-
+-
+-print("------Check element present or not-----")
+-# count & index fn are not present in set object
+-print(10 in st2)
+-
+-
+-print("----clear set object")
+-st.clear()
+-print(len(st))
+-
+-
+-print("----delete set object")
+-del st
+-# print(st)       NameError: name 'st' is not defined
+-
+-
+-print("------Convert Set to list----")
+-s4={50,30,20,40,10,10}
+-print(type(s4))
+-
+-
+-s5=list(s4)                  #  convert set to list
+-print(type(s5))
+-
+-print(s5)
+-print(s5[0])
+-
+-
+-
+-
+Index: T13_Package1/Test1.py
+===================================================================
+diff --git a/T13_Package1/Test1.py b/T13_Package1/Test1.py
+deleted file mode 100644
+--- a/T13_Package1/Test1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,17 +0,0 @@
+-# packageName: T13_package1
+-#ModuleName: Test1
+-
+-def f1():
+-    print("running f1 from Package1-Test1 module")
+-
+-def f2():
+-    print("running f2 from Package1-Test1 module")
+-
+-
+-class Demo1:
+-    def m1(self):
+-        print("running method m1 from Test1 Module1")
+-
+-    @staticmethod
+-    def m2():
+-        print("running static method m2 from Test1 Module1")
+\ No newline at end of file
+Index: 13_ModulesPackages/Bird.py
+===================================================================
+diff --git a/13_ModulesPackages/Bird.py b/13_ModulesPackages/Bird.py
+deleted file mode 100644
+--- a/13_ModulesPackages/Bird.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,8 +0,0 @@
+-# Module2: Bird
+-
+-def fly():
+-   print("Bird can fly")
+-
+-
+-def colour():
+-   print("Bird is green")
+Index: 7_TypesOfVariable/Ex5_LocalClassGlobalVariablesWithSameName.py
+===================================================================
+diff --git a/7_TypesOfVariable/Ex5_LocalClassGlobalVariablesWithSameName.py b/7_TypesOfVariable/Ex5_LocalClassGlobalVariablesWithSameName.py
+deleted file mode 100644
+--- a/7_TypesOfVariable/Ex5_LocalClassGlobalVariablesWithSameName.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,20 +0,0 @@
+-
+-print("----local, class & global variables with same name----")
+-
+-a,b=10,20     #global variable
+-
+-
+-class Sample4:
+-
+-  a,b=30,40      #class variable
+-
+-  def add(self,a,b):        #local variable
+-      print(a+b)
+-      print(self.a+self.b)
+-      print(globals()['a']+globals()['b'])
+-
+-
+-s4=Sample4()
+-s4.add(50,60)
+-
+-
+Index: 2_Conditional Statements/Ex3_elif2.py
+===================================================================
+diff --git a/2_Conditional Statements/Ex3_elif2.py b/2_Conditional Statements/Ex3_elif2.py
+deleted file mode 100644
+--- a/2_Conditional Statements/Ex3_elif2.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,16 +0,0 @@
+-
+-marks=20
+-
+-#   20>=65
+-if marks>=65:
+-    print("Distinction")
+-elif marks>=60 and marks<65:    # 20>=60 & 63<65
+-    print("1st class")
+-elif marks>=50 and marks<60:    #20>=50 and 55<60
+-    print("2nd class")
+-elif marks>=35 and marks<50:   #20>=35 and 40<50
+-    print("pass")
+-else:
+-    print("Fail")
+-
+-
+Index: 13_ModulesPackages/Operations2.py
+===================================================================
+diff --git a/13_ModulesPackages/Operations2.py b/13_ModulesPackages/Operations2.py
+deleted file mode 100644
+--- a/13_ModulesPackages/Operations2.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,45 +0,0 @@
+-# module4: Operations2
+-
+-print("----------Approach2--------------")
+-
+-# syntax:
+-# Apr2:   from moduleName import functionName, className      (import specific/required contents from other module)
+-#                 functionName()        -> calling function
+-#                 obj=className()     -> creatingObject
+-#                  obj.methodName()      -> calling non-static method
+-
+-                  # className.methodName()     -> static Method
+-
+-          # from moduleName import *             import all contents
+-
+-
+-from Calculator1 import add, Demo1
+-from Calculator2 import sub,Demo2
+-
+-print("-------calling content from Module1--------")
+-
+-#call functions
+-add(10,20)
+-
+-
+-#create object
+-d1=Demo1()
+-d1.m1()
+-d1.m2()
+-
+-#call static method
+-Demo1.m3()
+-
+-
+-
+-print("-------calling content from Module2--------")
+-
+-#call function
+-sub(4,9)
+-
+-#create object
+-d2=Demo2()
+-d2.m4()
+-
+-#call static method
+-Demo2.m5()
+Index: 2_Conditional Statements/Ex5_MatchCase1.py
+===================================================================
+diff --git a/2_Conditional Statements/Ex5_MatchCase1.py b/2_Conditional Statements/Ex5_MatchCase1.py
+deleted file mode 100644
+--- a/2_Conditional Statements/Ex5_MatchCase1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,21 +0,0 @@
+-day=3
+-
+-match day:
+-    case 1:
+-        print("Today is Mon")
+-    case 2:
+-        print("Today is Tue")
+-    case 3:
+-        print("Today is Wed")
+-    case 4:
+-        print("Today is Thr")
+-    case 5:
+-        print("Today is Fri")
+-    case 6:
+-        print("Today is Sat")
+-    case 7:
+-        print("Today is Sun")
+-    case _:
+-        print("Wrong Input")
+-
+-print("hiii")
+Index: 5_Functions/Ex2_Function_With_ReturnType.py
+===================================================================
+diff --git a/5_Functions/Ex2_Function_With_ReturnType.py b/5_Functions/Ex2_Function_With_ReturnType.py
+deleted file mode 100644
+--- a/5_Functions/Ex2_Function_With_ReturnType.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,66 +0,0 @@
+-from urllib3 import proxy_from_url
+-
+-print("-----Function With Return Type------")
+-
+-def add(num1, num2):
+-    num3=num1+num2
+-    return num3
+-
+-#Apr1
+-num4=add(2,3)
+-print(num4*num4)
+-
+-print("--")
+-
+-#Apr2
+-print(add(4,5))
+-
+-print("----------------------")
+-
+-def sub(num1, num2):
+-    subValue=num1-num2
+-    return subValue
+-
+-#Apr1
+-num3=sub(9,6)
+-print(num3*num3*num3)
+-
+-print("--")
+-
+-print(sub(9,6))
+-
+-print("--------------------------------")
+-
+-def getRollNum():
+-    rollNum=101
+-    return rollNum
+-
+-#Apr1
+-n1=getRollNum()
+-print(n1)
+-
+-#Apr2
+-print(getRollNum())
+-
+-print("----------Function with multiple return type------------")
+-
+-def mult(num1, num2):
+-    return num1*num2
+-
+-def AddMult(num1, num2):
+-    add=num1+num2
+-    mult=num1*num2
+-    return add,mult
+-
+-n1,n2=AddMult(7,8)
+-print(n1)
+-print(n2)
+-
+-
+-n3=mult(n1,n2)
+-print(n3)
+-
+-
+-
+-
+-
+Index: 11_StringClassMethods/Ex1_StringMethods.py
+===================================================================
+diff --git a/11_StringClassMethods/Ex1_StringMethods.py b/11_StringClassMethods/Ex1_StringMethods.py
+deleted file mode 100644
+--- a/11_StringClassMethods/Ex1_StringMethods.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,97 +0,0 @@
+-print("----String methods-----")
+-
+-s1="velocity"
+-s2="ABCD"
+-s3="abcd"
+-s4="my name is abc"
+-
+-print(len(s1))
+-
+-print(s4.title())
+-print(s1.capitalize())      #Velocity
+-
+-
+-print(s1.upper())      #VELOCITY
+-# s1=s1.upper()
+-print(s1)
+-
+-print(s2.lower())      #abcd
+-# s2=s2.lower()
+-print(s2)
+-print("--------")
+-
+-s6="Amol"
+-print(s6.swapcase())
+-
+-print(s2==s3)                  #compare data & case    - False
+-print(s2.__eq__(s3))           #compare data & case    -False
+-print(s2.lower()==s3.lower())  #compare only data -> ignore case
+-print("---")
+-print("my" in s4)             #true
+-print("city" in s1)
+-print(s4.__contains__("is"))
+-
+-print(s4.startswith("my"))
+-print(s4.endswith("abc1"))
+-
+-print("--------")
+-s5=" abcd xyz "
+-print(s5)
+-
+-print(s5.strip())
+-print(s5.lstrip())
+-print(s5.rstrip())
+-
+-print("------------------------------------")
+-
+-s1="velocity"
+-print(s1[2])
+-print(s1[4:8])                #[startIndex:endIndex+1]
+-
+-s2="abcaba"
+-print(s2.find('a'))          # get index of char (1st occurrence)
+-print(s2.index('a'))         # alternate method for find
+-
+-print(s2.rfind('a'))         # get index of last occurrence char
+-
+-print("--------")
+-print(s1+s2)
+-s3=s1+s2
+-print(s3)
+-
+-print(s2.count('a'))
+-
+-print("--------------------------------")
+-
+-s5="my name is abc"
+-print(s5.replace("abc","AMOL"))         #my name is xyz
+-print(s1.replace("city","CITY"))
+-
+-
+-ls=s5.split(" ")           #[my     name        is      abc]
+-print(ls[2])
+-print("--")
+-for i in ls:
+-    print(i)
+-
+-
+-print("---------------Additional Methods-----------------------")
+-str1="abc"
+-str2="122"
+-str3="abc123"
+-str4="  a   "
+-str5="my name is abc my"
+-print(str1.isalpha())
+-print(str2.isdigit())
+-print(str3.isalnum())
+-print(str4.isspace())
+-print(str5.count("my"))
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Index: 8_Constrctor/Ex2_UserDefined_Without_ParameterConstructor.py
+===================================================================
+diff --git a/8_Constrctor/Ex2_UserDefined_Without_ParameterConstructor.py b/8_Constrctor/Ex2_UserDefined_Without_ParameterConstructor.py
+deleted file mode 100644
+--- a/8_Constrctor/Ex2_UserDefined_Without_ParameterConstructor.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,19 +0,0 @@
+-print("-----user defined without constructor------")
+-
+-class Demo2:
+-
+-    # user defined without constructor -> provided user/programmer
+-    # use1: copy all the members of class into object
+-    def __init__(self):
+-        print('running user defined without parameter constructor')
+-
+-    def m1(self):
+-        print("running method m1")
+-
+-    def m2(self):
+-        print("running method m2")
+-
+-
+-d2=Demo2()       #calling user defined without parameter constructor
+-d2.m1()
+-d2.m2()
+\ No newline at end of file
+Index: 10_PolyMorphism/Ex3_MethodOverloading.py
+===================================================================
+diff --git a/10_PolyMorphism/Ex3_MethodOverloading.py b/10_PolyMorphism/Ex3_MethodOverloading.py
+deleted file mode 100644
+--- a/10_PolyMorphism/Ex3_MethodOverloading.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,41 +0,0 @@
+-
+-# print("------Ex1: Method Overloading----")
+-
+-# class Sample1:
+-#     def add(self, num1, num2):
+-#         print(num1+num2)
+-#
+-#     def add(self,num1, num2, num3):
+-#         print(num1+num2+num3)
+-#
+-#
+-# s1=Sample1()
+-# s1.add(2, 3)
+-# s1.add(2,3,5)
+-
+-
+-print("------Ex1: Method Overloading----")
+-
+-class Sample1:
+-
+-    def add(self, num1=0, num2=0, num3=0, num4=0, num5=0):
+-        print(num1+num2+num3+num4+num5)
+-
+-s1=Sample1()
+-s1.add()
+-s1.add(10,20)
+-s1.add(10,20,30)
+-s1.add(10,20,30,40)
+-s1.add(10,20,30,40,50)
+-
+-
+-print("------Ex2: Method Overloading----")
+-
+-class Sample2:
+-
+-   def printName(self,name="xyz"):
+-       print(name)
+-
+-s=Sample2()
+-s.printName()
+-s.printName("Mahesh")
+Index: 1_Varibles/Demo2.py
+===================================================================
+diff --git a/1_Varibles/Demo2.py b/1_Varibles/Demo2.py
+deleted file mode 100644
+--- a/1_Varibles/Demo2.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,16 +0,0 @@
+-
+-#Emp details
+-
+-#declaration of variable
+-emp_Name="Ganesh"
+-emp_designation="Automation Tester"
+-emp_id=112233
+-emp_Salary=70000.5
+-
+-
+-#usage of variable
+-print(emp_Name)
+-print(emp_designation)
+-print(emp_id)
+-print(emp_Salary)
+-print(emp_Name)       #vraibale reuse
+\ No newline at end of file
+Index: 12_ExceptionHandling/Demo1.py
+===================================================================
+diff --git a/12_ExceptionHandling/Demo1.py b/12_ExceptionHandling/Demo1.py
+deleted file mode 100644
+--- a/12_ExceptionHandling/Demo1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,159 +0,0 @@
+-print("----Program without exception handling-----")
+-
+-# num1=10
+-# num2=0
+-# num3=num1/num2    #10/0
+-# print(num3)
+-# print("Hi")
+-# print("Hello")
+-
+-print("------Ex1.1: basic example of Exception handling-----")
+-
+-n1=10
+-n2=0
+-try:
+-    n3=n1/n2               #risky code
+-    print(n3)
+-except ZeroDivisionError:
+-    print("ZeroDivisionError handled")              #msg in except block
+-print("Hi")
+-print("Hello")
+-
+-print("-----1.2: Alternate code in except block------")
+-n1=10
+-n2=0
+-
+-try:
+-  print(n1/n2)          #risky code
+-except ZeroDivisionError:
+-  print(n1/1)          #only alternate solution
+-
+-print("Hi Hello")
+-
+-
+-print("-----1.3: Alternate code & msg in except block------")
+-n1=10
+-n2=0
+-
+-try:
+-  print(n1/n2)          #risky code
+-except ZeroDivisionError:
+-  print(n1/1)                            #alternate solution
+-  print("ZeroDivision Error Handled")    #msg
+-
+-print("Hi Hello")
+-
+-
+-print("------2: Example of Multiple Except block------")
+-n1=10
+-n2=0
+-
+-try:
+-  print(n1/n2)
+-except ValueError:
+-  print("ValueError Handled")
+-except ZeroDivisionError:
+-  print("ZeroDivisionError Handled")
+-
+-print("program ended")
+-
+-
+-print("-----------3.1: Example of Generic exception-----------")
+-n1=10
+-n2=0
+-
+-try:
+-  print(n1/n2)          #risky code
+-except Exception:
+-  print("Generic exception handled")
+-
+-print("program ended")
+-
+-
+-print("-----------3.2: Example of Generic exception-----------")
+-n1=10
+-n2=0
+-
+-try:
+-    print(n1/n2)          #risky code
+-except Exception as s1:
+-    print(s1)
+-    print("Generic exception handled")
+-
+-print("program ended")
+-
+-
+-print("-----4: Example of Correct way of using Generic exception-------")
+-n1=10
+-n2=0
+-
+-print("program started")
+-try:
+-    print(n1/n2)
+-except ValueError:
+-    print("Value Error Handled")
+-except ZeroDivisionError:
+-    print("ZeroDivisionError handled")
+-except Exception as e:
+-    print("Generic Exception handled")
+-    print(e)
+-
+-print("program ended")
+-
+-
+-print("--------5: Alternative way of using Generic exception-------------")
+-n1=10
+-n2=0
+-
+-try:
+-    print(n1/n2)
+-except:
+-    print("Generic Exception Handled")
+-
+-print("Hi Hello")
+-
+-print("---6: Example of finally block-----")
+-n1=10
+-n2=0
+-try:
+-    print(n1/n2)
+-except:
+-    print("Exception Handled")
+-finally:
+-   print("running finally block")
+-
+-
+-print("Hi Hello")
+-
+-
+-print("----Raise Exception:----")
+-
+-
+-num=2
+-
+-if num==2:
+-    raise Exception("Exception handled")
+-
+-
+-
+-
+-# assert(count==2)
+-# print("Hi")
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Index: 5_Functions/Demo.py
+===================================================================
+diff --git a/5_Functions/Demo.py b/5_Functions/Demo.py
+deleted file mode 100644
+--- a/5_Functions/Demo.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,12 +0,0 @@
+-n1=10
+-n2=20
+-
+-n3=n1+n2
+-print(n3)
+-
+-
+-
+-n1=40
+-n2=50
+-n3=n1+n2
+-print(n3)
+\ No newline at end of file
+Index: 7_TypesOfVariable/Ex4_AllTypesOfVariableInSameExample.py
+===================================================================
+diff --git a/7_TypesOfVariable/Ex4_AllTypesOfVariableInSameExample.py b/7_TypesOfVariable/Ex4_AllTypesOfVariableInSameExample.py
+deleted file mode 100644
+--- a/7_TypesOfVariable/Ex4_AllTypesOfVariableInSameExample.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,45 +0,0 @@
+-print("----Ex4: all types of variables in same example---------")
+-
+-
+-num1=10        #Global variable
+-
+-def f1():
+-    num2=20        #local variable
+-    print(num2)     #calling local variable
+-    print(num1)     #calling global variable
+-
+-def f2():
+-    num3=30        #local variable
+-    print(num3)       #calling local variable
+-    print(num1)       #calling global variable
+-
+-
+-class Test4:
+-
+-    num4=40         #class variable
+-
+-    def m1(self):
+-        num5=50
+-        print(num5)          #calling local variable
+-        print(num1)          #calling global variable
+-        print(self.num4)     #calling class variable
+-
+-    @staticmethod
+-    def m2():
+-        num6=60
+-        print(num6)               #calling local variable
+-        print(num1)               #calling global variable
+-        print(Test4.num4)         #calling class variable
+-
+-
+-f1()
+-print("--")
+-f2()
+-print("--")
+-t4=Test4()
+-t4.m1()
+-print("--")
+-Test4.m2()
+-
+-
+-
+Index: 13_ModulesPackages/Operations1.py
+===================================================================
+diff --git a/13_ModulesPackages/Operations1.py b/13_ModulesPackages/Operations1.py
+deleted file mode 100644
+--- a/13_ModulesPackages/Operations1.py	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
++++ /dev/null	(revision 3f29dd89d32f0e104c32714c5fb67e5304d8cf52)
+@@ -1,46 +0,0 @@
+-#Module3: Operations1
+-
+-#Apr1: import moduleName           (import all contents from other module)
+-       # moduleName.fn()
+-       # obj=moduleName.className()
+-       # obj.methodName()
+-
+-       #moduleName.className.staticMethodName()
+-
+-
+-import Calculator1
+-import Calculator2
+-
+-print("----------------------------Approach1-------------------------------")
+-print("----call functions & methods from 1st module---")
+-
+-#call functions
+-Calculator1.add(2,3)           # moduleName.fn()
+-Calculator1.mult(6,7)
+-
+-#call non-static methods
+-d1=Calculator1.Demo1()                     # obj=moduleName.className()
+-d1.m1()                                    # obj.methodName()
+-d1.m2()
+-
+-#call static method
+-Calculator1.Demo1.m3()
+-
+-
+-print("----call functions & methods from 2nd module---")
+-
+-#function call
+-Calculator2.div(4,7)
+-Calculator2.sub(8,5)
+-
+-
+-#call non-static methods
+-obj2=Calculator2.Demo2()
+-obj2.m4()
+-
+-#call static methods
+-Calculator2.Demo2.m5()
+-
+-
+-
+-
+diff --git a/T13_Package2/__init__.py b/T13_Package2/__init__.py
+deleted file mode 100644
+diff --git a/2_Conditional Statements/__init__.py b/2_Conditional Statements/__init__.py
+deleted file mode 100644
+diff --git a/7_TypesOfVariable/__init__.py b/7_TypesOfVariable/__init__.py
+deleted file mode 100644
+diff --git a/3_Loops/__init__.py b/3_Loops/__init__.py
+deleted file mode 100644
+diff --git a/10_PolyMorphism/__init__.py b/10_PolyMorphism/__init__.py
+deleted file mode 100644
+diff --git a/1_Varibles/__init__.py b/1_Varibles/__init__.py
+deleted file mode 100644
+diff --git a/Demo/__init__.py b/Demo/__init__.py
+deleted file mode 100644
+diff --git a/T13_Package1/__init__.py b/T13_Package1/__init__.py
+deleted file mode 100644
+diff --git a/8_Constrctor/__init__.py b/8_Constrctor/__init__.py
+deleted file mode 100644
+diff --git a/13_ModulesPackages/__init__.py b/13_ModulesPackages/__init__.py
+deleted file mode 100644
+diff --git a/6_Class_And_Object/__init__.py b/6_Class_And_Object/__init__.py
+deleted file mode 100644
+diff --git a/4_Data Types/__init__.py b/4_Data Types/__init__.py
+deleted file mode 100644
+diff --git a/12_ExceptionHandling/__init__.py b/12_ExceptionHandling/__init__.py
+deleted file mode 100644
+diff --git a/9_Inheritance/__init__.py b/9_Inheritance/__init__.py
+deleted file mode 100644
+diff --git a/Sample1/__init__.py b/Sample1/__init__.py
+deleted file mode 100644
+diff --git a/5_Functions/__init__.py b/5_Functions/__init__.py
+deleted file mode 100644
