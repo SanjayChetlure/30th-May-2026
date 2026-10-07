@@ -4,91 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a914ced-1d02-4f54-a81e-34c091807a91" name="Changes" comment="3rd Oct 2026git">
-      <change beforePath="$PROJECT_DIR$/10_PolyMorphism/Ex1_Sample1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_PolyMorphism/Ex2_MethodOverride.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_PolyMorphism/Ex3_MethodOverloading.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_PolyMorphism/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_StringClassMethods/Ex1_StringMethods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_ExceptionHandling/Demo1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_ExceptionHandling/Sample1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_ExceptionHandling/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_ModulesPackages/Animal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_ModulesPackages/AnimalAndBird.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_ModulesPackages/Bird.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_ModulesPackages/Calculator1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_ModulesPackages/Calculator2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_ModulesPackages/Operations1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_ModulesPackages/Operations2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_ModulesPackages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Varibles/Demo1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Varibles/Demo2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Varibles/Demo3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Varibles/Demo4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Varibles/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Conditional Statements/Ex1_if1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Conditional Statements/Ex1_if2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Conditional Statements/Ex2_if_else1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Conditional Statements/Ex2_if_else2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Conditional Statements/Ex3_elif1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Conditional Statements/Ex3_elif2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Conditional Statements/Ex3_elif3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Conditional Statements/Ex4_nested_if1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Conditional Statements/Ex4_nested_if2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Conditional Statements/Ex5_MatchCase1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Conditional Statements/Ex5_MatchCase2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Conditional Statements/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Loops/Ex1_ForLoop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Loops/Ex2_WhileLoop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Loops/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Data Types/Ex1_List.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Data Types/Ex2_Set.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Data Types/Ex3_Dictionary.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Data Types/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_Functions/Demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_Functions/Ex1_FunctionWithout_And_With_Parameter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_Functions/Ex2_Function_With_ReturnType.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_Functions/Ex3_PostionParameter_KeywordParameter_OptionlaParameter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_Functions/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_Class_And_Object/Ex1_Instance_Or_NonStatic_Method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_Class_And_Object/Ex2_Static_Method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_Class_And_Object/Ex3_Instance_Static_Methods_InSameClas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_Class_And_Object/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_TypesOfVariable/Ex1_GlobalVariable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_TypesOfVariable/Ex2_LocalVariable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_TypesOfVariable/Ex3_ClassVariable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_TypesOfVariable/Ex4_AllTypesOfVariableInSameExample.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_TypesOfVariable/Ex5_LocalClassGlobalVariablesWithSameName.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_TypesOfVariable/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Constrctor/Ex1_DefaultConstrctor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Constrctor/Ex2_UserDefined_Without_ParameterConstructor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Constrctor/Ex3_UserDefinedConstructor_WithParameter1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Constrctor/Ex3_UserDefinedContractor_WithParameter2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Constrctor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_Inheritance/Ex1_SingleLevelInheritance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_Inheritance/Ex2_MultiLevelInheritance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_Inheritance/Ex3_HirarchicalInheritance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_Inheritance/Ex4_MultipleInheritance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_Inheritance/Ex5_InheritanceInStaticMethods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_Inheritance/Ex6_InheritanceWith_Variables.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_Inheritance/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Sample1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sample1/Demo1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sample1/Demo2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sample1/Demo3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sample1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/T13_Package1/Test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/T13_Package1/Test2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/T13_Package1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/T13_Package2/Test3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/T13_Package2/Test4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/T13_Package2/__init__.py" beforeDir="false" />
+    <list default="true" id="5a914ced-1d02-4f54-a81e-34c091807a91" name="Changes" comment="6th Oct 2026">
+      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex1_EvenOdd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex2_FactorialOfNum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex3_AcceptInputFromUser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex4_ReverseString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex5_PallindromeString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex6_ReverseStatement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,6 +56,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Ex1_EvenOdd.executor": "Run",
+    "Python.Ex1_if1.executor": "Run",
+    "Python.Ex2_FactorialOfNum.executor": "Run",
+    "Python.Ex2_Protected.executor": "Run",
+    "Python.Ex3_AcceptInputFromUser.executor": "Run",
+    "Python.Ex3_public.executor": "Run",
+    "Python.Ex4_ReverseString.executor": "Run",
+    "Python.Ex5_PallindromeString.executor": "Run",
+    "Python.Ex6_ReverseStatement.executor": "Run",
+    "Python.Sample1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -151,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791042966657</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="6th Oct 2026">
+      <option name="closed" value="true" />
+      <created>1791301357621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1791301357621</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3rd Oct 2026" />
-    <option name="LAST_COMMIT_MESSAGE" value="3rd Oct 2026" />
+    <MESSAGE value="6th Oct 2026" />
+    <option name="LAST_COMMIT_MESSAGE" value="6th Oct 2026" />
   </component>
 </project>
