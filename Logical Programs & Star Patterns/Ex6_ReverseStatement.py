@@ -14,3 +14,5 @@ l1.reverse()      # l1=l1[::-1]     ->  [abc is name my]
 #3: join the list of words into statement/String
 out=' '.join(l1)     #  abc is name my
 print(out)
+
+
