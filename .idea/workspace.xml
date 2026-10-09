@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a914ced-1d02-4f54-a81e-34c091807a91" name="Changes" comment="7th Oct 2026">
-      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex10_ArmstrongNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex11_FibonacySeries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex7_Reverse_1st_And_last_words_of_statement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex8_ReverseEvenOddIndexWordsInAStatement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex9_ReverseNumber.py" afterDir="false" />
+    <list default="true" id="5a914ced-1d02-4f54-a81e-34c091807a91" name="Changes" comment="8th Oct 2026">
+      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex12_Duplicate Occurrence Duplicate &amp; Unique words in statement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex13_Occurrence, Duplicate &amp; Unique chars in string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Pattern1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex6_ReverseStatement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logical Programs &amp; Star Patterns/Ex6_ReverseStatement.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -42,7 +40,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -56,8 +54,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Python.Ex10_ArmstrongNumber.executor": "Run",
     "Python.Ex11_FibonacySeries.executor": "Run",
+    "Python.Ex12Duplicate Occurrence, Duplicate & Unique words in statement.executor": "Run",
+    "Python.Ex13_Occurrence, Duplicate & Unique chars in string.executor": "Run",
     "Python.Ex1_EvenOdd.executor": "Run",
     "Python.Ex1_if1.executor": "Run",
     "Python.Ex2_FactorialOfNum.executor": "Run",
@@ -70,6 +71,7 @@
     "Python.Ex7_Reverse_1st_And_last_words_of_statement.executor": "Run",
     "Python.Ex8_ReverseEvenOddIndexWordsInAStatement.executor": "Run",
     "Python.Ex9_ReverseNumber.executor": "Run",
+    "Python.Pattern1.executor": "Run",
     "Python.Sample1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -117,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791389008619</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="8th Oct 2026">
+      <option name="closed" value="true" />
+      <created>1791475264163</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1791475264163</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +157,7 @@
     <MESSAGE value="3rd Oct 2026" />
     <MESSAGE value="6th Oct 2026" />
     <MESSAGE value="7th Oct 2026" />
-    <option name="LAST_COMMIT_MESSAGE" value="7th Oct 2026" />
+    <MESSAGE value="8th Oct 2026" />
+    <option name="LAST_COMMIT_MESSAGE" value="8th Oct 2026" />
   </component>
 </project>
