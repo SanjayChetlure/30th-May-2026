@@ -27,3 +27,15 @@ result = list(map(lambda x: x*2, listObj))
 
 print(result)
 
+
+print("---Ex5: Using lambda function with filter()--")
+# filter() is used to select items based on a condition.
+
+listObj= [1, 2, 3, 4, 5, 6]
+result = list(filter(lambda x: x % 2 == 0, listObj))
+
+print(result)
+
+
+
+
