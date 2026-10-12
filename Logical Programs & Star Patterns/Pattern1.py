@@ -71,3 +71,86 @@ for i in range(3):
       print("*",end="")
   star -=2
   print()
+
+
+
+print("-----Pattern7:-----")
+
+#  *
+# **
+#***
+
+
+space=2
+star=1
+for i in range(3):
+  for j in range(space):
+      print(" ",end="")
+  for j in range(star):
+      print("*", end="")
+  space -=1
+  star +=1
+  print()
+
+
+
+print("------Pattern8:-----")
+
+#  *
+# ***
+#*****
+
+space=2
+star=1
+for i in range(3):
+  for j in range(space):
+      print(" ",end="")
+  for j in range(star):
+      print("*", end="")
+
+  space -=1
+  star +=2
+  print()
+
+
+
+print("------Pattern9:-----")
+
+#***
+# **
+#  *
+
+space=0
+star=3
+for i in range(3):
+  for j in range(space):
+      print(" ",end="")
+  for j in range(star):
+      print("*", end="")
+
+  space +=1
+  star -=1
+  print()
+
+
+
+
+print("------Pattern10:-----")
+
+#*****
+# ***
+#  *
+
+space=0
+star=5
+for i in range(3):
+  for j in range(space):
+      print(" ",end="")
+  for j in range(star):
+      print("*", end="")
+
+  space +=1
+  star -=2
+  print()
+
+
